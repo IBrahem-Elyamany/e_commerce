@@ -26,6 +26,10 @@ class MyApp extends StatelessWidget {
                 textTheme: GoogleFonts.mulishTextTheme(),
                 colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
                 useMaterial3: true,
+
               ),
-              home: const BottomNavBar()));
+            
+
+              
+              home: const BottomNavBar(),),);
 }

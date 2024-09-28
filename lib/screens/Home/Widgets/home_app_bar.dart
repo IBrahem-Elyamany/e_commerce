@@ -2,8 +2,8 @@
 import 'package:e_commerce_with_provider/screens/constans.dart';
 import 'package:flutter/material.dart';
 
-class customAppBar extends StatelessWidget {
-  const customAppBar({
+class CustomAppBar extends StatelessWidget {
+  const CustomAppBar({
     super.key,
   });
 
@@ -18,7 +18,8 @@ class customAppBar extends StatelessWidget {
             padding:const EdgeInsets.all(20),
           ),
           onPressed: () {},
-          icon: Image.asset(
+          icon: Image.asset( 
+            
             "images/icon.png",
             height: 18,
             color: kprimaryColor,
