@@ -30,8 +30,8 @@ class customAppBar extends StatelessWidget {
             padding:const EdgeInsets.all(20),
           ),
           onPressed: () {},
-          iconSize: 23,
-           icon: Icon(Icons.notifications_outlined,color: kprimaryColor,),
+          iconSize: 25,
+           icon: Icon(Icons.brightness_4_outlined,color: kprimaryColor,),
         ),
       ],
     );
